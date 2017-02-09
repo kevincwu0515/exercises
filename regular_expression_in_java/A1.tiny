@@ -6,10 +6,10 @@ END
 INT MAIN f1()
 BEGIN
 	INT x;
-	READ(x, "A41.input");
+	READ(x, "testcase/test1.input");
 	INT y;
-	READ(y, "A42.input");
+	READ(y, "testcase/test2.input");
 	INT z;
 	z := f2(x,y) + f2(y,x);
-	WRITE(z, "A4.output");
+	WRITE(z, "A1.output");
 END
